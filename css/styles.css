@@ -1,0 +1,192 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+.big-heading{
+    font-family: "Montserrat-Black";  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* title section */
+
+#title .container-fluid{
+    padding: 3% 7% 15%;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/* sections */
+.colored{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+.white{
+    background-color: #ffff;
+    color: black;
+}
+
+
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrant";
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* title-image */
+
+.title-image{ 
+    transform: rotate(25deg );
+    position: absolute;
+    
+}
+
+
+
+/* features section  */
+
+#features{
+   
+    background-color: #ffff;
+    position: relative;
+   
+}
+.feature-box{
+    
+    padding: 5%;
+
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.feature-title{
+    font-style: bold;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+
+/* testimonial */
+
+#testimonials{
+    
+    
+    background-color: #ef8172;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.test-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+   
+    padding-bottom: 3%;
+    position: relative;
+    z-index: 2;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height:1.5 ;
+
+}
+
+
+
+/* pricinfg */
+
+#pricing{
+    padding: 100px;
+    
+    position: relative;
+    z-index: 3;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-tag{
+    font-size: 3rem;
+    line-height:1.5 ;
+}
+
+
+
+/* cta */
+
+
+.btn-cta{
+    margin: 5% 2%;
+}
+
+.brand{
+    margin: 20px 10px;
+}
+
+
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
